@@ -1,6 +1,6 @@
 {
     "version": 2,
     "name": "boostup",
-    "builds": [{ "src": "server.js", "use": "@vercel/node" }],
-    "routes": [{ "src": "/(.*)", "dest": "/server.js" }]
+    "builds": [{ "src": "./server.mjs", "use": "@vercel/node" }],
+    "routes": [{ "src": "/(.*)", "dest": "./server.mjs" }]
   } 
